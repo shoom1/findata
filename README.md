@@ -209,26 +209,6 @@ tech_stocks = client.get_by_sector('Technology')
 
 See `examples/client_api_examples.py` for comprehensive usage.
 
-## ⚡ Performance & Rate Limiting
-
-### YFinance Rate Limits
-Conservative defaults to avoid being blocked:
-- **5 seconds** between each symbol
-- **30 seconds** pause every 10 symbols
-- Recommended: **10-100 symbols per session**
-
-### Load Time Estimates
-
-| Index | Symbols | Est. Time |
-|-------|---------|-----------|
-| DOW30 | 30 | ~2.5 min |
-| DAX | 41 | ~3.4 min |
-| FTSE100 | 100 | ~8.3 min |
-| NDX | 101 | ~8.4 min |
-| SP500 | 503 | ~42 min |
-
-**Tip**: Load SP500 in batches using `--index-max-symbols`
-
 ### Database Performance
 - SQLite is optimized for <1M records
 - Typical portfolio (100 stocks, 20 years) = ~500K records
@@ -317,17 +297,6 @@ pytest --cov=src tests/
 - ⏳ Rates data via FRED (planned v0.2.0)
 - ⏳ Alternative data sources (planned v0.3.0)
 - ⏳ DuckDB migration (planned v0.3.0)
-
-## 🤝 Contributing
-
-Contributions are welcome! This project focuses on data acquisition and management. For time series generation and modeling, see related projects.
-
-### Areas for Contribution
-- Additional index configs (FTSE 250, Russell 2000, etc.)
-- New data sources (FRED, Polygon.io, Alpha Vantage)
-- Data quality checks and validation
-- Performance optimizations
-- Documentation improvements
 
 ## 📝 License
 
