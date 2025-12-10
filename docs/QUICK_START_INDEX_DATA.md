@@ -26,11 +26,11 @@ Download actual price history for each constituent:
 
 ```bash
 # All constituents (full history from 2005)
-python scripts/setup_database.py --load-index-data DOW30      # ~2.5 min
-python scripts/setup_database.py --load-index-data DAX        # ~3.4 min
-python scripts/setup_database.py --load-index-data FTSE100    # ~8.3 min
-python scripts/setup_database.py --load-index-data NDX        # ~8.4 min
-python scripts/setup_database.py --load-index-data SP500      # ~42 min
+python scripts/setup_database.py --load-index-data DOW30
+python scripts/setup_database.py --load-index-data DAX
+python scripts/setup_database.py --load-index-data FTSE100
+python scripts/setup_database.py --load-index-data NDX
+python scripts/setup_database.py --load-index-data SP500
 
 # Recent data only (faster)
 python scripts/setup_database.py --load-index-data SP500 --index-start-date 2020-01-01
@@ -92,24 +92,3 @@ python scripts/setup_database.py --load-index-data SP500 --index-max-symbols 200
 ```
 
 The loader automatically skips symbols that already have data!
-
-## Full Documentation
-
-- **Detailed guide**: `notes/how_to_load_index_data.md`
-- **Example code**: `examples/load_index_data_example.py`
-- **Main docs**: `CLAUDE.md`
-
-## Summary
-
-```bash
-# Complete workflow (5 indices)
-python scripts/setup_database.py --update-all-indices           # ~30 seconds
-python scripts/setup_database.py --load-index-data DOW30        # ~2.5 min
-python scripts/setup_database.py --load-index-data DAX          # ~3.4 min
-python scripts/setup_database.py --load-index-data FTSE100      # ~8.3 min
-python scripts/setup_database.py --load-index-data NDX          # ~8.4 min
-python scripts/setup_database.py --load-index-data SP500        # ~42 min
-# Total: ~65 minutes for 775 stocks with 20 years of data
-```
-
-Now you're ready to run backtests and analytics!

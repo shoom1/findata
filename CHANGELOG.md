@@ -2,9 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
 ## [0.1.0] - 2025-12-09
 
 ### Added
@@ -49,10 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Multi-symbol comparison
 
 - **Documentation**
-  - Comprehensive CLAUDE.md for AI assistants
   - Quick start guides for common workflows
   - API examples and usage patterns
-  - Architecture and implementation notes
 
 ### Features
 - **Configuration Management**: User-space configuration with ~/.findatarc
@@ -94,28 +89,6 @@ pip install -e .
 conda env create -f environment.yml
 conda activate findata
 ```
-
-### Migration Notes
-None (initial release)
-
----
-
-## [Unreleased]
-
-### Planned for 0.2.0
-- Add FX risk factor groups (G10 currency pairs)
-- Add rates data via FRED API (US Treasuries)
-- Implement incremental update capability
-- Add data quality metrics and validation
-- Support for intraday frequencies
-- Historical index composition changes tracking
-
-### Planned for 0.3.0
-- Alternative data sources (Polygon.io, Alpha Vantage)
-- Data versioning and revision tracking
-- Export to Parquet for archival
-- Real-time streaming data support
-- Migration to DuckDB for large datasets
 
 ---
 

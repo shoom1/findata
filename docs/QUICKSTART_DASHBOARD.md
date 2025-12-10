@@ -99,34 +99,3 @@ streamlit run dashboard_app.py --server.port 8080
 streamlit run dashboard_app.py --server.address 0.0.0.0
 # Access at http://<your-ip>:8501
 ```
-
-### Stop Dashboard
-Press `Ctrl+C` in terminal
-
----
-
-## 📚 Full Documentation
-
-- **User Guide:** DASHBOARD.md
-- **Implementation:** notes/dashboard_implementation_summary.md
-- **Demo Script:** python demo_dashboard.py
-
----
-
-## 🆘 Troubleshooting
-
-**"Database not found"**
-→ Run: `python scripts/setup_database.py --init`
-
-**"No data to display"**
-→ Run: `python demo_dashboard.py`
-
-**Port in use**
-→ Run: `pkill -f streamlit` then retry
-
-**Dashboard not updating**
-→ Click 🔄 Refresh Data button
-
----
-
-**Enjoy your dashboard! 📊✨**
