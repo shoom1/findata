@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Package builds
+*.whl
+*.tar.gz
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (database is managed, but may want to exclude for git)
+# data/timeseries.db  # Uncomment if you don't want to commit the database
+*.db
+*.db-journal
+
+# User config (contains local paths)
+.findatarc
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# project working notes
+notes/
+logs/
+examples/demos/
+CLAUDE.md

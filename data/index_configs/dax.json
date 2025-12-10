@@ -1,0 +1,30 @@
+{
+  "index_code": "DAX",
+  "index_name": "DAX",
+  "description": "DAX Index - 40 largest German companies on Frankfurt Stock Exchange",
+  "country": "DE",
+  "asset_class": "equity",
+  "data_source": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/DAX",
+
+  "constituents_table": {
+    "table_index": 4,
+    "column_mapping": {
+      "Ticker": "symbol",
+      "Company": "company_name",
+      "Prime Standard Sector": "sector",
+      "Founded": "founded"
+    }
+  },
+
+  "changes_table": {
+    "table_index": 6,
+    "has_multiindex_columns": false,
+    "column_mapping": {
+      "Date": "date",
+      "Component included": "added_company",
+      "Component excluded": "removed_company",
+      "Reason for exclusion/ Comments": "reason"
+    }
+  }
+}

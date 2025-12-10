@@ -1,0 +1,81 @@
+{
+  "group_name": "major_indices",
+  "description": "Major global equity indices",
+  "asset_class": "equity",
+  "asset_subclass": "index",
+  "data_source": "yfinance",
+  "frequency": "daily",
+  "last_updated": "2024-12-05",
+  "risk_factors": [
+    {
+      "symbol": "^GSPC",
+      "description": "S&P 500 Index",
+      "country": "US",
+      "currency": "USD",
+      "sector": null
+    },
+    {
+      "symbol": "^DJI",
+      "description": "Dow Jones Industrial Average",
+      "country": "US",
+      "currency": "USD",
+      "sector": null
+    },
+    {
+      "symbol": "^IXIC",
+      "description": "NASDAQ Composite",
+      "country": "US",
+      "currency": "USD",
+      "sector": null
+    },
+    {
+      "symbol": "^RUT",
+      "description": "Russell 2000",
+      "country": "US",
+      "currency": "USD",
+      "sector": null
+    },
+    {
+      "symbol": "^VIX",
+      "description": "CBOE Volatility Index",
+      "country": "US",
+      "currency": "USD",
+      "sector": null
+    },
+    {
+      "symbol": "^STOXX50E",
+      "description": "Euro Stoxx 50",
+      "country": "EU",
+      "currency": "EUR",
+      "sector": null
+    },
+    {
+      "symbol": "^FTSE",
+      "description": "FTSE 100",
+      "country": "GB",
+      "currency": "GBP",
+      "sector": null
+    },
+    {
+      "symbol": "^GDAXI",
+      "description": "DAX",
+      "country": "DE",
+      "currency": "EUR",
+      "sector": null
+    },
+    {
+      "symbol": "^N225",
+      "description": "Nikkei 225",
+      "country": "JP",
+      "currency": "JPY",
+      "sector": null
+    },
+    {
+      "symbol": "^HSI",
+      "description": "Hang Seng Index",
+      "country": "HK",
+      "currency": "HKD",
+      "sector": null
+    }
+  ]
+}

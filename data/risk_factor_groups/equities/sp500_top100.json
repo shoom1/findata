@@ -1,0 +1,31 @@
+{
+  "group_name": "sp500_top100",
+  "description": "Top 100 S&P 500 stocks by market cap (manually curated)",
+  "asset_class": "equity",
+  "asset_subclass": "stock",
+  "data_source": "yfinance",
+  "frequency": "daily",
+  "last_updated": "2024-12-05",
+  "risk_factors": [
+    {"symbol": "AAPL", "description": "Apple Inc.", "country": "US", "currency": "USD", "sector": "Technology"},
+    {"symbol": "MSFT", "description": "Microsoft Corporation", "country": "US", "currency": "USD", "sector": "Technology"},
+    {"symbol": "GOOGL", "description": "Alphabet Inc. Class A", "country": "US", "currency": "USD", "sector": "Communication Services"},
+    {"symbol": "GOOG", "description": "Alphabet Inc. Class C", "country": "US", "currency": "USD", "sector": "Communication Services"},
+    {"symbol": "AMZN", "description": "Amazon.com Inc.", "country": "US", "currency": "USD", "sector": "Consumer Discretionary"},
+    {"symbol": "NVDA", "description": "NVIDIA Corporation", "country": "US", "currency": "USD", "sector": "Technology"},
+    {"symbol": "META", "description": "Meta Platforms Inc.", "country": "US", "currency": "USD", "sector": "Communication Services"},
+    {"symbol": "TSLA", "description": "Tesla Inc.", "country": "US", "currency": "USD", "sector": "Consumer Discretionary"},
+    {"symbol": "BRK-B", "description": "Berkshire Hathaway Inc. Class B", "country": "US", "currency": "USD", "sector": "Financials"},
+    {"symbol": "JPM", "description": "JPMorgan Chase & Co.", "country": "US", "currency": "USD", "sector": "Financials"},
+    {"symbol": "V", "description": "Visa Inc.", "country": "US", "currency": "USD", "sector": "Financials"},
+    {"symbol": "JNJ", "description": "Johnson & Johnson", "country": "US", "currency": "USD", "sector": "Healthcare"},
+    {"symbol": "WMT", "description": "Walmart Inc.", "country": "US", "currency": "USD", "sector": "Consumer Staples"},
+    {"symbol": "MA", "description": "Mastercard Inc.", "country": "US", "currency": "USD", "sector": "Financials"},
+    {"symbol": "PG", "description": "Procter & Gamble Co.", "country": "US", "currency": "USD", "sector": "Consumer Staples"},
+    {"symbol": "UNH", "description": "UnitedHealth Group Inc.", "country": "US", "currency": "USD", "sector": "Healthcare"},
+    {"symbol": "HD", "description": "The Home Depot Inc.", "country": "US", "currency": "USD", "sector": "Consumer Discretionary"},
+    {"symbol": "DIS", "description": "The Walt Disney Company", "country": "US", "currency": "USD", "sector": "Communication Services"},
+    {"symbol": "BAC", "description": "Bank of America Corporation", "country": "US", "currency": "USD", "sector": "Financials"},
+    {"symbol": "XOM", "description": "Exxon Mobil Corporation", "country": "US", "currency": "USD", "sector": "Energy"}
+  ]
+}

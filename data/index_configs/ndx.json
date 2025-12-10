@@ -1,0 +1,32 @@
+{
+  "index_code": "NDX",
+  "index_name": "NASDAQ-100",
+  "description": "NASDAQ-100 Index - 100 largest non-financial companies on NASDAQ",
+  "country": "US",
+  "asset_class": "equity",
+  "data_source": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/NASDAQ-100",
+
+  "constituents_table": {
+    "table_index": 4,
+    "column_mapping": {
+      "Ticker": "symbol",
+      "Company": "company_name",
+      "ICB Industry[14]": "sector",
+      "ICB Subsector[14]": "sub_industry"
+    }
+  },
+
+  "changes_table": {
+    "table_index": 5,
+    "has_multiindex_columns": true,
+    "column_mapping": {
+      "Date": "date",
+      "Added.Ticker": "added_ticker",
+      "Added.Security": "added_company",
+      "Removed.Ticker": "removed_ticker",
+      "Removed.Security": "removed_company",
+      "Reason": "reason"
+    }
+  }
+}

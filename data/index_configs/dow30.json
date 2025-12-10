@@ -1,0 +1,31 @@
+{
+  "index_code": "DOW30",
+  "index_name": "Dow Jones Industrial Average",
+  "description": "Dow Jones 30 Industrial Average - Blue Chip US Stocks",
+  "country": "US",
+  "asset_class": "equity",
+  "data_source": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average",
+
+  "constituents_table": {
+    "table_index": 2,
+    "column_mapping": {
+      "Company": "company_name",
+      "Symbol": "symbol",
+      "Industry": "sector",
+      "Date added": "date_added_to_index",
+      "Notes": "notes"
+    }
+  },
+
+  "changes_table": {
+    "table_index": 2,
+    "has_multiindex_columns": false,
+    "column_mapping": {
+      "Date": "date",
+      "Added": "added_company",
+      "Removed": "removed_company",
+      "Reason": "reason"
+    }
+  }
+}

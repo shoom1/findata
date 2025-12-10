@@ -1,0 +1,18 @@
+{
+  "index_code": "FTSE100",
+  "index_name": "FTSE 100",
+  "description": "FTSE 100 Index - 100 largest companies on London Stock Exchange",
+  "country": "GB",
+  "asset_class": "equity",
+  "data_source": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/FTSE_100_Index",
+
+  "constituents_table": {
+    "table_index": 6,
+    "column_mapping": {
+      "Company": "company_name",
+      "Ticker": "symbol",
+      "FTSE industry classification benchmark sector[36]": "sector"
+    }
+  }
+}
