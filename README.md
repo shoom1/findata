@@ -154,7 +154,6 @@ User space (created on init):
 - **[QUICK_START_INDEX_DATA.md](QUICK_START_INDEX_DATA.md)** - Loading index data guide
 - **[QUICKSTART_INDEX_MANAGEMENT.md](QUICKSTART_INDEX_MANAGEMENT.md)** - Managing indices
 - **[DASHBOARD.md](DASHBOARD.md)** - Running the web dashboard
-- **[CLAUDE.md](CLAUDE.md)** - Comprehensive reference for AI assistants
 - **[CHANGELOG.md](CHANGELOG.md)** - Version history
 
 ## 🔑 Key Concepts
@@ -333,33 +332,3 @@ Contributions are welcome! This project focuses on data acquisition and manageme
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **YFinance** for providing free market data
-- **Wikipedia** for index constituent data
-- The quantitative finance community
-
-## 📧 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/findata/issues)
-- **Documentation**: See CLAUDE.md for comprehensive reference
-- **Examples**: Check the `examples/` directory
-
-## 🗺️ Roadmap
-
-### v0.2.0 (Q1 2025)
-- FX risk factor groups (G10 currency pairs)
-- Rates data via FRED API
-- Incremental update capability
-- Data quality metrics
-
-### v0.3.0 (Q2 2025)
-- Alternative data sources (Polygon.io)
-- DuckDB migration for large datasets
-- Data versioning
-- Real-time streaming data
-
----
-
-**Note**: This is a data management layer designed to work alongside analysis projects. For time series generation and quantitative modeling, consider pairing with specialized projects like `tsgen`.
